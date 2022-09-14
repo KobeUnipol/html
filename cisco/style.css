@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #D9EEE1;
+}
+
+.form-login{
+	width: 400px;
+	height: 380px;
+	background: lightgrey;
+	margin: auto;
+	margin-top: 120px;
+	box-shadow: 7px 13px 37px grey;
+	padding: 20px 40px;
+	border-top: 4px solid lightgrey;
+	color: black;
+    border-radius: 20px;
+}
+
+.form-login input{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.form-login a{
+    font-size: 19px;
+    font-style: oblique;
+    color: black;
+    display: block;
+    margin-right: auto;
+}
+
+.boton{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: #D9EEE1;
+    }
+    
+    .form-login{
+        width: 300px;
+        height: 450px;
+        background: lightgrey;
+        margin: auto;
+        margin-top: 120px;
+        box-shadow: 7px 13px 37px grey;
+        padding: 20px 40px;
+        border-top: 4px solid lightgrey;
+        color: black;
+        border-radius: 20px;
+    }
+    
+    .form-login input{
+        display: block;
+        width: 220px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+        border-radius: 10px;
+        
+    }
+    
+    .boton{
+        width: px;
+        height: 32px;
+        font-size: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+}
